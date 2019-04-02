@@ -39,20 +39,35 @@ For that, you need to import basics-custom.scss file that has no vars:
 ### Flexbox
 
 `flex` - display flex
+
 `flex-start` - justify-content: flex-start
+
 `flex-center` - justify-content: center
+
 `flex-end` - justify-content: flex-end
+
 `flex-between` - justify-content: space-between
+
 `flex-around` - justify-content: space-around
+
 `flex-top` - align-items: flex-start
+
 `flex-middle` - align-items: center
+
 `flex-bottom` - align-items: flex-end
+
 `flex-stretch` - align-items: stretch
+
 `flex-column` - flex-direction: column
+
 `flex-wrap` - flex-wrap: wrap
+
 `flex-{1-3}` - flex-grow: {1-3}, e.g. `flex-1` would be `{ flex-grow: 1; }`
+
 `self-start` - flex-start
+
 `self-center` - align-self: center
+
 `self-end` - align-self: flex-end
 
 ### Margins and Paddings
@@ -60,6 +75,7 @@ For that, you need to import basics-custom.scss file that has no vars:
 Margins and paddings work in the same principle `{margin|padding}-{side}-{size}`, where `{side}` is optional if you want to set the same margin/padding on all sides.
 
 `{side}` can be one of `top`, `right`, `bottom`, or `left`.
+
 `{size}` has `sm`, `md`, `lg`, and `xl`. Those can be customized with your own sizes.
 
 So you'd use it in this way
@@ -74,7 +90,6 @@ padding-right-xl
 margin-sm // sets margin: $sm;
 margin-auto // sets margin for left and right as auto
 ```
-
 
 There are also zero margin and padding classes that set either all or one of the sides to `0`. They are structured as `no-{margin|padding}-{side}`, where `{side}` is optional. So that would be
 
@@ -113,5 +128,7 @@ text-white // sets color: $colorWhite !important;
 There are few more classes, similar to bootstrap that help with positioning of things on the page.
 
 `clear-{side}` - sets clear on either of the sides or both, e.g. `clear-both` will be `clear:both`
+
 `pos-{absolute|relative}` - sets `positioning` either absolute or relative, e.g. `pos-absolute`
+
 `no-list` - sets `list-style: none` and `padding-left: 0`. Used for `ul` or `li` elements.
