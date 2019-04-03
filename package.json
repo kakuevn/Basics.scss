@@ -15,7 +15,8 @@
     "util"
   ],
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepublish": "rm -rf ./dist && yarn build"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
