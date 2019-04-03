@@ -1,6 +1,6 @@
 {
   "name": "basics.scss",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "repository": "https://github.com/kakuevn/Basics.scss.git",
   "author": "kakuevn <n.kakuev@gmail.com>",
@@ -15,11 +15,11 @@
     "util"
   ],
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepublish": "rm -rf ./dist && yarn build"
   },
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^4.0.0",
-    "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2"
   }
 }

@@ -2,6 +2,20 @@
 
 Basics.scss is a micro util library with the most often used classes.
 
+## Getting started
+
+Import basics.css file into your `.js` file directly
+
+```
+import "basics.scss/dist/basics.css";
+```
+
+Or import it into your `.scss`, `.sass` or `.styl` file
+
+```
+@import "node_modules/basics.scss/dist/basics.css";
+```
+
 ## Variables
 
 You can change variables to customise distance, size, and color. 
@@ -31,7 +45,7 @@ For that, you need to import basics-custom.scss file that has no vars:
 
 ```
 @import 'your-vars-file.scss';
-@import "node_modules/basics.css/src/basics-custom.scss";
+@import "node_modules/basics.scss/src/basics-custom.scss";
 ```
 
 ## Docs
@@ -130,3 +144,5 @@ There are few more classes, similar to bootstrap that help with positioning of t
 `pos-{absolute|relative}` - sets `positioning` either absolute or relative, e.g. `pos-absolute`
 
 `no-list` - sets `list-style: none` and `padding-left: 0`. Used for `ul` or `li` elements.
+
+Designed and built by [Nikita K.](https://kakuev.com/). Feel free to submit a pull request. Help is always appreciated.
