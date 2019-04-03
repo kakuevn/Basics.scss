@@ -131,6 +131,4 @@ There are few more classes, similar to bootstrap that help with positioning of t
 
 `no-list` - sets `list-style: none` and `padding-left: 0`. Used for `ul` or `li` elements.
 
----
-
-Designed and built by [Nikita K.](https://kakuev.com/). Feel free to submit a pull request..
+Designed and built by [Nikita K.](https://kakuev.com/). Feel free to submit a pull request. Help is always appreciated.
