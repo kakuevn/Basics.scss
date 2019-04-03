@@ -4,7 +4,7 @@ Basics.scss is a micro util library with the most often used classes.
 
 ## Getting started
 
-Import basics.css file in your `.js`
+Import basics.css file into your `.js` file directly
 
 ```
 import "basics.scss/dist/basics.css";
