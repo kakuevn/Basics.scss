@@ -81,24 +81,22 @@ Margins and paddings work in the same principle `{margin|padding}-{side}-{size}`
 So you'd use it in this way
 
 ```
-margin-top-md
-margin-bottom-lg
+<div class="margin-top-md">...</div>
+<div class="margin-bottom-lg">...</div>
 
-padding-left-sm
-padding-right-xl
+<p class="padding-left-sm">...</p>
+<p class="padding-right-xl">...</p>
 
-margin-sm // sets margin: $sm;
-margin-auto // sets margin for left and right as auto
+<span class="margin-sm">...</span> // sets margin: $sm;
+<span class="margin-auto">...</span> // sets margin for left and right as auto
 ```
 
 There are also zero margin and padding classes that set either all or one of the sides to `0`. They are structured as `no-{margin|padding}-{side}`, where `{side}` is optional. So that would be
 
 ```
-no-margin // sets margin: 0
-
-no-padding-left // sets padding-left: 0
-
-no-margin-top // sets margin-top: 0
+<div class="no-margin">...</div> // sets margin: 0
+<div class="no-padding-left">...</div> // sets padding-left: 0
+<div class="no-margin-top">...</div> // sets margin-top: 0
 ```
 
 ### Text
