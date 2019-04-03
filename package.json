@@ -1,10 +1,19 @@
 {
-  "name": "Basics.scss",
-  "version": "0.1.0",
+  "name": "basics.scss",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://github.com/kakuevn/Basics.scss.git",
   "author": "kakuevn <n.kakuev@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "front-end",
+    "library",
+    "flexbox",
+    "util"
+  ],
   "scripts": {
     "build": "gulp build"
   },
