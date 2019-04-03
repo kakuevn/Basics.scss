@@ -5,6 +5,15 @@
   "repository": "https://github.com/kakuevn/Basics.scss.git",
   "author": "kakuevn <n.kakuev@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "front-end",
+    "library",
+    "flexbox",
+    "util"
+  ],
   "scripts": {
     "build": "gulp build"
   },
